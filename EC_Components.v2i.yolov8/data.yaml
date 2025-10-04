@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Button', 'Capacitor', 'Diode', 'Inductance', 'Integrated', 'LDR', 'LED', 'Lentil Capacitor', 'Potentiometer', 'Resistance Type Inductance', 'Resistor', 'Transistor']
+
+roboflow:
+  workspace: james-manalili
+  project: ec-components
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/james-manalili/ec-components/dataset/2
